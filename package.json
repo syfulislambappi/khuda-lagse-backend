@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.12"
+  },
+  "name": "khuda-lagse-backend",
+  "version": "1.0.0",
+  "description": "khuda lagse is a food delivery system. It is the backend of khuda lagse food delivery system",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syful Islam",
+  "license": "ISC"
+}
