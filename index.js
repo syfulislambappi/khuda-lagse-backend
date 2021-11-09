@@ -25,6 +25,10 @@ app.use('/item', itemRouter);
 app.use('/ordered', orderedRouter);
 app.use('/admin', adminRouter);
 
+app.get('/', (req, res) => {
+    res.send('server is running')
+})
+
 // connect database
 const main = async () => {
     await mongoose.connect(DBURL);
