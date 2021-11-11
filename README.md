@@ -1,5 +1,11 @@
 # KhudaLagse Food Delivery Service Backend
 
+Admin Login Information
+============================
+email: syfulislambappi@gmail.com
+
+password: 12345678
+
 ## Technology used to create the backend application
 - `Node JS`
 - `Express JS`
